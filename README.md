@@ -1,6 +1,6 @@
 # Network Scanning Automation
 
-This project implements automated network scanning tools using Python.  
+This project implements automated network scanning tools using Python. 
 The programs execute system commands like Ping, ARP, and Nmap and analyze their outputs to gather network information.
 
 ## Tools Implemented
@@ -14,7 +14,7 @@ The programs execute system commands like Ping, ARP, and Nmap and analyze their 
 Python 3  
 Nmap
 
-Install Nmap in Kali Linux:
+Install Nmap:
 
 sudo apt install nmap
 
@@ -46,7 +46,20 @@ network-scanning-tools
     ├── arp_output.png
     └── nmap_output.png
 
+## Example Usage
+
+Ping Scanner  
+Input: google.com  
+Output: Host reachable with response time.
+
+ARP Scanner  
+Displays IP and MAC address mappings from the system ARP table.
+
+Nmap Scanner  
+Input: 127.0.0.1  
+Output: Shows detected ports and services.
+
 ## Author
 
 Tejaswini H L  
-Cybersecurity Assignment – CampusPe
+Cybersecurity Course – CampusPe
